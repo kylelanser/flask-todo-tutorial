@@ -1,6 +1,6 @@
 # A Restless Todo app with EmberJS and Flask
 
-The goal of this a subsquent articles will be to build our very own Todo app in EmberJS backed by the wonderful Flask Python-based web framework.  This is a living documents which has a [home on Github](https://github.com/drwlrsn/flask-todo-tutorial).  *I know there must be mistakes in here!* So please, if you find any (and you will) please leave a comment on Github or submit a pull request.  The [final source code](https://github.com/drwlrsn/flask-todo) is also on Github.
+The goal of this and subsequent articles will be to build our very own Todo app in EmberJS backed by the wonderful Flask Python-based web framework.  This is a living documents which has a [home on Github](https://github.com/drwlrsn/flask-todo-tutorial).  *I know there must be mistakes in here!* So please, if you find any (and you will) please leave a comment on Github or submit a pull request.  The [final source code](https://github.com/drwlrsn/flask-todo) is also on Github.
 
 ## Setup the Python environment
 
@@ -417,6 +417,8 @@ After we have setup now let's make an index.html in our templates directory. So 
 	        <script src="{{ url_for('static', filename='js/app.js') }}"></script>
 	        </body>
 	</html>
+
+
 
 Next create `app.js` residing in `static/js` which will be super simple to make sure we didn't mess anything up.
 
