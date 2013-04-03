@@ -1,3 +1,5 @@
+This is Part 2 of a tutorial aimed demonstrating how to build a Flask-based EmberJS application. If you haven't read [Part 1](http://b.drwlrsn.com/post/44971679516/flask-todo-emberjs-pt1), you've missed the part where we build a Python backend.
+
 For our initial Todo application we are going to use the great code provided by TodoMVC project. To kick everything off we are going to throw our app into strict mode. A great explanation is provided by [John Resig](http://ejohn.org/blog/ecmascript-5-strict-mode-json-and-more/). It boils down to disabling `eval` and `with` and prevent assigning values to variables which have not been defined yet.
 
 ##Create the application
