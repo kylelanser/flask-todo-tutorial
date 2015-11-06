@@ -126,7 +126,7 @@ False
 None
 </pre>
 
-Notice our Todo object doesn't have an id. That is only because we haven't added it do a the database. This is where we are going to use the db object:
+Notice our Todo object doesn't have an id. That is only because we haven't added it to the database. This is where we are going to use the db object:
 
 <pre>
 &gt;&gt;&gt; db.session.add(todo1)
